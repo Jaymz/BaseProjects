@@ -2,6 +2,14 @@
 	"version": "1.0.0",
 	"name": "ASP.NET",
   "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
   "dependencies": {
     "angular2": "2.0.0-beta.12",
     "systemjs": "0.19.24",
