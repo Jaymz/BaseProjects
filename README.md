@@ -1,1 +1,2 @@
 BaseProjects
+Starter project templates.

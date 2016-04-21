@@ -26,3 +26,11 @@ build/Release
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
+bower_components
+
+#Ignore compiled typescript .js files
+wwwroot/**/*.js
+wwwroot/**/*.js.map
+
+#Ignore gulp copied lib files
+wwwroot/libs
